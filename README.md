@@ -11,3 +11,6 @@ git clone
 ```
 
 La otra forma es presionando el botón <>code</>( en verde en la esquina superior derecha) y puede descargar todo el repositorio en fomrato *.zip* y almacenarlo en su entorno local.
+
+# 2. Series de tiempo de Mauna Loa
+## 2.1 Descarga de datos
