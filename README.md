@@ -48,6 +48,6 @@ Posteriormente descargue los datos de concentraciones de $CO_{2}$ con el siguien
 
 ```shell
 wget https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt
-``
+```
 
 Con ello ya puede leer los datos y realizar figuras presentes en el código **ejemplo_1.ipynb**
