@@ -20,7 +20,7 @@ Es necesario instalar una serie de librerías para obtener las figuras y resulta
 conda create -n taller_cr2
 ```
 
-Posteriormente deberá activar el taller:
+Posteriormente deberá activar el entorno virtual:
 
 ```shell
 conda activate taller_cr2
