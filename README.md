@@ -84,4 +84,4 @@ Con todos estos pasós podrá generar las figuras y series de tiempo del código
 
 # Dudas
 
-En caso de presentar dudas, comentarios puede contactar a [Sebastián Villalón Figueroa](mailto:sebastian.villalon@ug.uchile.cl?subject=[GitHub]%20Taller%20Estudiantes%20CR2%202023)
+📧 En caso de presentar dudas, comentarios puede contactar a [Sebastián Villalón Figueroa](mailto:sebastian.villalon@ug.uchile.cl?subject=[GitHub]%20Taller%20Estudiantes%20CR2%202023)
