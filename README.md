@@ -35,7 +35,7 @@ conda install -c anaconda seaborn
 ```
 
 # 3. Series de tiempo de Mauna Loa
-## 2.1 Descarga de datos
+## 3.1 Descarga de datos
 
 Acceda a la carpeta en donde se encuentre el proyecto, en la carpeta raíz abra una terminal y ejecute:
 
@@ -53,3 +53,21 @@ wget https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt
 Con ello ya puede leer los datos y realizar figuras presentes en el código **ejemplo_1.ipynb**
 
 **Dependiendo del editor de texto en donde sea ejecutado el código puede ser necesario instalar librerías extras o seleccionar el entorno virtual de anaconda de forma manual.**
+
+# 4. Reanálisis ERA5 
+## 4.1 Descarga de datos
+
+En la carpeta raíz del proyecto abra una terminal y ejecute:
+
+
+```shell
+cd data/era5/
+```
+
+Al interior de la carpeta encontrará el código *download_data_era5.py* el cual permitirá descargar datos provenientes del reanálisis **era5**, antes de ejecutar el código es necesario realizar crear una cuenta en los servicios de **copernicus** se sugiere revisar el siguiente [tutorial](https://www.youtube.com/watch?v=AmF1nn7o6Hc) donde se muestra el paso a paso para descargar los datos de reanálisis ocupando Python, posteriormente al realizar la configuración ejecute:
+
+```python
+python download_data_era5.py
+```
+La descarga de los datos debería tomar un par de minutos.
+
