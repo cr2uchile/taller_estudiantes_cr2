@@ -52,7 +52,7 @@ wget https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt
 
 Con ello ya puede leer los datos y realizar figuras presentes en el código **ejemplo_1.ipynb**
 
-**Dependiendo del editor de texto en donde sea ejecutado el código puede ser necesario instalar librerías extras o seleccionar el entorno virtual de anaconda de forma manual.**
+⚠️**Dependiendo del editor de texto en donde sea ejecutado el código puede ser necesario instalar librerías extras o seleccionar el entorno virtual de anaconda de forma manual.**
 
 # 4. Reanálisis ERA5 
 ## 4.1 Descarga de datos
@@ -69,5 +69,19 @@ Al interior de la carpeta encontrará el código *download_data_era5.py* el cual
 ```python
 python download_data_era5.py
 ```
-La descarga de los datos debería tomar un par de minutos.
 
+La descarga de datos debería tomar un par de minutos.
+
+## 4.2 Pre/Posprocesamiento de datos
+
+Al trabajar con datos grillados en algunas ocasiones es necesario redimensionar el tamaño de grilla, calcular estadísticos, entre otros. Este proceso puede realizarse de muchas maneras, llegando a ser agotador y tedioso. Para simplificar estas tareas existe [CDO](https://code.mpimet.mpg.de/projects/cdo) (Cliumate Data Operators). El cual es un software que se ejecuta en terminal y permite realizar diversas operaciones a datos grillados. En el archivo `scripts.sh` se encuentra una rutina para realizzar operaciones de ajuste de tamaño de grilla `remapbil` (el cual requiere un archivo de configuración que en el caso del proyecto corresponde a `grid.txt), además de calcular el promedio anual con `yearmean` y seleccionar el mes de diciembre con `selmon` se sugiere revisar la [documentación](https://zenodo.org/record/7112925) de **CDO** para obtener mayor información de las múltiples operaciones a realizar. Para poder realizar las operaciones realizadas en el taller se debe ejecutar el siguiente comando al interior de la carpeta `data` del proyecto.
+
+```shell
+bash scripts.sh
+```
+
+Con todos estos pasós podrá generar las figuras y series de tiempo del código `ejemplo_2.ipynb`.
+
+# Dudas
+
+En caso de presentar dudas, comentarios puede contactar a [Sebastián Villalón Figueroa](mailto:sebastian.villalon@ug.uchile.cl?subject=[GitHub]%20Taller%20Estudiantes%20CR2)
