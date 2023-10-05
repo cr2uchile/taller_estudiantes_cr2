@@ -18,7 +18,7 @@ La otra forma es presionando el botón <>code</>( en verde en la esquina superio
 
 # 2. Configuración del entorno virtual
 
-Es necesario instalar una serie de librerías para obtener las figuras y resultados generados en el taller, para ello se debe crear un entorno virtual con anaconda:
+Es necesario instalar una serie de librerías para obtener las figuras y resultados generados en el taller, para ello se debe crear un entorno virtual con Anaconda:
 
 ```shell
 conda create -n taller_cr2
