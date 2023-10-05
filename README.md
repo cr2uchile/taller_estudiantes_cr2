@@ -59,7 +59,7 @@ wget https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt
 
 Con ello ya puede leer los datos y realizar figuras presentes en el código **ejemplo_1.ipynb**
 
-⚠️**Dependiendo del editor de texto en donde sea ejecutado el código puede ser necesario instalar librerías extras o seleccionar el entorno virtual de anaconda de forma manual.**
+⚠️ **Dependiendo del editor de texto en donde sea ejecutado el código puede ser necesario instalar librerías extras o seleccionar el entorno virtual de anaconda de forma manual.**
 
 # 4. Reanálisis ERA5 
 ## 4.1 Descarga de datos
