@@ -31,7 +31,9 @@ Posteriormente deberá activar el entorno virtual:
 conda activate taller_cr2
 ```
 
-Para poder instalar las liberias necesarias ejecute los siguientes comandos **Importante: Se deben ejecutar los comandos en el orden indicado a continuación:**
+Para poder instalar las liberias necesarias ejecute los siguientes comandos: 
+
+**Importante: Se deben ejecutar los comandos en el orden indicado a continuación:**
 
 ```shell
 conda install -c conda-forge cartopy
