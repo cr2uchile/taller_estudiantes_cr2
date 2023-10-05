@@ -1,6 +1,6 @@
 ## Taller de Estudiantes (CR)2: Iniciándose en la computación científica.
 
-El siguiente repositorio se enmarca en el contexto **Ciclo de talleres: Herramientas para la investigación y comunicación efectiva del conocimiento** donde integrantes del equipo de gestión del **(CR2)** entregaron herramientas a nuevos/as investigadores/as y estudiantes del centro. En este caso corresponde al taller iniciándose en computación científica con Python y otras herramientas dictado por Sebastián Villalón Figueroa Ingeniero de datos y plataformas web. Donde se brindaron diversas herramientas asociadas a cálculo y visualización de diversos tipos de datos.
+El siguiente repositorio se enmarca en el contexto **Ciclo de talleres: Herramientas para la investigación y comunicación efectiva del conocimiento** donde integrantes del equipo de gestión del **(CR)2** entregaron herramientas a nuevos/as investigadores/as y estudiantes del centro. En este caso corresponde al taller iniciándose en computación científica con Python y otras herramientas dictado por Sebastián Villalón Figueroa Ingeniero de datos y plataformas web. Donde se brindaron diversas herramientas asociadas a cálculo y visualización de diversos tipos de datos.
 
 # Instrucciones
 
