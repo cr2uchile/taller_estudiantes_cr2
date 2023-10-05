@@ -8,13 +8,13 @@ Para poder obtener los resultados mostrados en el taller debe seguir una serie d
 
 # 1. Descarga del repositorio
 
-Para poder generar una copia del repositorio en su entorno local puede realizarlo de diversas formas, una de ellas es abriendo una terminal puede clonar el repositorio con el siguiente comando:
+Para poder generar una copia del repositorio en su entorno local puede realizarlo de diversas formas, una de ellas es abriendo una terminal y ejecutar el siguiente comando.
 
 ```shell
 git clone https://github.com/cr2uchile/taller_estudiantes_cr2.git
 ```
 
-La otra forma es presionando el botón <>code</>( en verde en la esquina superior derecha) y puede descargar todo el repositorio en fomrato *.zip* y almacenarlo en su entorno local.
+La otra forma es presionando el botón <>code</>( en verde en la esquina superior derecha) y puede descargar todo el repositorio en formato *.zip* y almacenarlo en su entorno local.
 
 # 2. Configuración del entorno virtual
 
