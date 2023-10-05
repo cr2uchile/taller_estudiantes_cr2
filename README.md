@@ -16,6 +16,8 @@ git clone https://github.com/cr2uchile/taller_estudiantes_cr2.git
 
 La otra forma es presionando el botón <>code</>( en verde en la esquina superior derecha) y puede descargar todo el repositorio en formato *.zip* y almacenarlo en su entorno local.
 
+**Es necesario que despues de descargar el repositorio deba crear algunas carpetas para asegurar la ejecución de los códigos.**
+
 # 2. Configuración del entorno virtual
 
 Es necesario instalar una serie de librerías para obtener las figuras y resultados generados en el taller, para ello se debe crear un entorno virtual con Anaconda:
