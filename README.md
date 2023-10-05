@@ -71,7 +71,7 @@ En la carpeta raíz del proyecto abra una terminal y ejecute:
 cd data/era5/
 ```
 
-Al interior de la carpeta encontrará el código *download_data_era5.py* el cual permitirá descargar datos provenientes del reanálisis **era5**, antes de ejecutar el código es necesario realizar crear una cuenta en los servicios de **copernicus** se sugiere revisar el siguiente [tutorial](https://www.youtube.com/watch?v=AmF1nn7o6Hc) donde se muestra el paso a paso para descargar los datos de reanálisis ocupando Python, posteriormente al realizar la configuración ejecute:
+Al interior de la carpeta encontrará el código *download_data_era5.py* el cual permitirá descargar datos provenientes del reanálisis **era5**, antes de ejecutar el código es necesario crear una cuenta en los servicios de **copernicus** se sugiere revisar el siguiente [tutorial](https://www.youtube.com/watch?v=AmF1nn7o6Hc) donde se muestra el paso a paso para descargar los datos de reanálisis ocupando Python, posteriormente al realizar la configuración ejecute:
 
 ```python
 python download_data_era5.py
