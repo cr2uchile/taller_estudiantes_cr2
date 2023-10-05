@@ -24,6 +24,7 @@ Es necesario instalar una serie de librerías para obtener las figuras y resulta
 conda create -n taller_cr2
 ```
 Si no presenta una instalación de Anaconda puede revisar la siguiente [documentación](https://www.anaconda.com/download).
+
 Posteriormente deberá activar el entorno virtual:
 
 ```shell
